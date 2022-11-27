@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="1dp">
+
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/costom_1"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Thêm Công Việc"
+        android:textColor="#040303"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText_them_cong_viec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_title"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="-1dp"
+        android:background="@drawable/bovien_edittext"
+        android:ems="10"
+        android:hint="Nhập Tên Công Việc......"
+        android:inputType="textPersonName"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_Them"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_them_cong_viec"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/costom_buttom_left"
+        android:text="Thêm"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_Huy"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_them_cong_viec"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginBottom="30dp"
+        android:layout_toRightOf="@id/button_Them"
+        android:background="@drawable/costom_buttom_right"
+        android:text="Hủy"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
